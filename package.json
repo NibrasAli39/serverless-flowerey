@@ -1,0 +1,19 @@
+{
+  "name": "flowerey",
+  "version": "1.0.0",
+  "description": "Microservice for Flowerey , Serverless Graphql running on AWS Lambda ",
+  "main": "serverless.yml",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NibrasAli39/serverless-flowerey.git"
+  },
+  "author": "Nibras",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NibrasAli39/serverless-flowerey/issues"
+  },
+  "homepage": "https://github.com/NibrasAli39/serverless-flowerey#readme"
+}

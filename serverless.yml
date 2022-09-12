@@ -9,6 +9,17 @@ provider:
   runtime: nodejs14.x
 
 functions:
+  graphql:
+    handler: graphql.graphqlHandler
+    events:
+    - http:
+        path: graphql
+        method: get
+        cors: true
+    - http:
+        path: graphql
+        method: post
+        cors: true        
   hello:
     handler: handler.hello
 
